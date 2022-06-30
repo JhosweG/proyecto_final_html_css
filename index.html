@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Jhoswe Genner</title>
+</head>
+
+<body>
+
+  <div class="toggle" onclick="toggleMenu();"></div>
+
+  <section class="banner" id="home">
+    <div class="imgSidebar">
+      <img src="./images/bg.jpg" alt="Foto de Perfil">
+    </div>
+    <div class="contentBx">
+      <h5 class="logoText">Jhoswe Genner</h5>
+      <div>
+        <h4><span>Hello</span>, I'm</h4>
+        <h2>Jhoswe Genner</h2>
+        <h4>I'm a Full Stack Delevoper.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum commodi unde, expedita laudantium, alias
+          autem obcaecati vitae, accusamus molestias harum aliquam ea saepe. Expedita repellat fuga dolorum sint quos
+          excepturi.
+          Laudantium, hic ullam? Sunt labore, sint iure illo.</p>
+        <a href="#" class="btn">About Me</a>
+      </div>
+      <ul class="sci">
+        <li><img src="/images/facebook.png" alt="Facebook"></li>
+        <li><img src="/images/twitter.png" alt="Twitter"></li>
+        <li><img src="/images/instagram.png" alt="Instagram"></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="title white">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dicta et vitae corporis fugiat ab.
+        Nesciunt, qui aliquid numquam minus similique quas labore vel aperiam cupiditate a, incidunt distinctio est?</p>
+    </div>
+    <div class="content">
+      <div class="textBx">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In incidunt cum maiores sapiente, nisi laudantium
+          animi obcaecati. Quam beatae et magnam labore inventore nihil autem alias repellat totam iste est consectetur
+          harum esse, voluptatibus sint! Accusantabore ipsa culpa similique consectetur officiis cum vero eum a, ut
+          aperiam sint libero, assumenda illum <br><br> harum dolorum fugiat fuga minima nemo nam. Minima quidem odit
+          voluptatibus a, veritatis ipsam est eius totam facilis esse expedita? Sint iusto pariatur reiciendis, nemo
+          maxime necessitatibus Dicta fuga hic delectus quos sapiente, nobis quisquam modi! Porro ea obcaecati aperiam
+          qui nam consequuntur cum tempore voluptatem corrupti voluptatibus quisquam impedit cumque velit perferendis,
+          dolor, aliquam accusamus, autem labore vel officia iure quaerat adipisci pariatur! Unde similique autem,
+          itaque dolorem non, ipsa ut quam eum numquam veritatis soluta!</p>
+      </div>
+      <div class="imgBx"><img src="./images/bg1.jpg" alt="Foto en Playa"></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="title">
+      <h2>Contact</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, dolor perferendis? Tempora fugit sit tempore?
+        Voluptate nam officia corrupti, voluptatibus repellendus nesciunt at excepturi hic iste nihil. Error,
+        laudantium. Distinctio?</p>
+    </div>
+    <div class="contactForm">
+      <div class="row">
+        <div class="col50">
+          <input type="text" name="Name" placeholder="First Name">
+        </div>
+        <div class="col50">
+          <input type="text" name="" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col50">
+          <input type="text" name="" placeholder="Email">
+        </div>
+        <div class="col50">
+          <input type="text" name="" placeholder="Mobile N°">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col100">
+          <textarea placeholder="Message"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col100">
+          <input type="submit" value="Send">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="copyright">
+    <p>copyright 2022 ® Jhoswe Genner. All Right Reserved.</p>
+  </div>
+
+  <div class="sidebar">
+    <ul>
+      <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </ul>
+  </div>
+
+
+  <script>
+    function toggleMenu() {
+      const menuToggle = document.querySelector('.toggle');
+      const sidebar = document.querySelector('.sidebar');
+      menuToggle.classList.toggle('active')
+      sidebar.classList.toggle('active')
+    }
+  </script>
+</body>
+
+</html>
