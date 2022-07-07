@@ -29,7 +29,7 @@
   background-repeat: no-repeat;
 }
 
-section {
+section{
   padding: 100px;
   min-height: 100vh;
 }
@@ -117,7 +117,7 @@ p {
   letter-spacing: 2px;
 }
 
-.btn:hover{
+.btn:hover {
   background: #fff;
   color: #2b3c44;
   border: solid #000 1px;
@@ -232,30 +232,30 @@ p {
   background: #000;
 }
 
-.about .content{
+.about .content {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
 
-.about .content .textBx{
+.about .content .textBx {
   min-width: 49%;
   width: 49%;
 }
 
-.about .content .textBx p{
+.about .content .textBx p {
   color: #fff;
 }
 
-.about .content .imgBx{
+.about .content .imgBx {
   margin-left: 40px;
 }
 
-.about .content .imgBx img{
+.about .content .imgBx img {
   max-width: 100%;
 }
 
-.contact{
+.contact {
   background: #fff;
   display: flex;
   justify-content: center;
@@ -263,24 +263,24 @@ p {
   flex-direction: column;
 }
 
-.contact .contactForm .row{
+.contact .contactForm .row {
   width: 100%;
   display: flex;
 }
 
-.contact .contactForm .row .col50{
+.contact .contactForm .row .col50 {
   width: 50%;
   margin: 10px;
 }
 
-.contact .contactForm .row .col100{
+.contact .contactForm .row .col100 {
   width: 100%;
   margin: 10px;
   text-align: center;
 }
 
 .contact .contactForm .row input,
-.contact .contactForm .row textarea{
+.contact .contactForm .row textarea {
   width: 100%;
   padding: 10px;
   border: none;
@@ -290,11 +290,11 @@ p {
   font-size: 16px;
 }
 
-.contact .contactForm .row textarea{
+.contact .contactForm .row textarea {
   height: 100px;
 }
 
-.contact .contactForm .row input[type="submit"]{
+.contact .contactForm .row input[type="submit"] {
   background: #2b3c44;
   color: #fff;
   padding: 10px 30px;
@@ -306,100 +306,101 @@ p {
   border: solid #2b3c44 1px;
 }
 
-.contact .contactForm .row input[type="submit"]:hover{
+.contact .contactForm .row input[type="submit"]:hover {
   background: #fff;
   color: #2b3c44;
   border: solid #000 1px;
 }
 
-.copyright{
-color: #fff;
-background: #111;
-text-align: center;
-padding: 10px;
+.copyright {
+  color: #fff;
+  background: #111;
+  text-align: center;
+  padding: 10px;
 }
 
-.copyright p{
+.copyright p {
   margin: 0;
   font-size: 16px;
 }
 
-@media (max-width: 991px){
-  .banner .contentBx h2{
+@media (max-width: 991px) {
+  .banner .contentBx h2 {
     text-align: center;
   }
 
-  .banner .contentBx h4{
+  .banner .contentBx h4 {
     text-align: center;
   }
 
-  p{
+  p {
     text-align: center;
     font-size: 1em;
   }
 
-  .banner .imgSidebar{
+  .banner .imgSidebar {
     display: none;
   }
 
-  .banner .contentBx, .sidebar{
+  .banner .contentBx,
+  .sidebar {
     width: 100%;
   }
 
-  .logoText{
+  .logoText {
     left: 40px;
   }
 
-  .toggle{
+  .toggle {
     right: 40px;
   }
 
-  .sci{
+  .sci {
     left: 40px;
   }
 
-  .btn{
+  .btn {
     display: flex;
     justify-content: center;
   }
 
-  section{
+  section {
     padding: 40px;
     min-height: 100vh;
   }
 
-  .about .content{
+  .about .content {
     flex-direction: column;
   }
 
-  .about .content .textBx{
+  .about .content .textBx {
     min-width: 100%;
     width: 100%;
-  }  
+  }
 
-  .about .content{
+  .about .content {
     margin-top: 0;
   }
 
-  .about .content .imgBx{
+  .about .content .imgBx {
     margin-left: 0;
   }
 
-  .contactForm{
+  .contactForm {
     width: 100%;
   }
 
-  .contactForm .row{
+  .contactForm .row {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
 
-  .contact .contactForm .row .col50{
+  .contact .contactForm .row .col50 {
     width: 100%;
   }
 
-  .sidebar ul li a{
+  .sidebar ul li a {
     font-size: 1.5em;
   }
 }

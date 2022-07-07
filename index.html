@@ -10,10 +10,18 @@
 </head>
 
 <body>
+  <header>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#home" onclick="toggleMenu()">Inicio</a></li>
+        <li><a href="#about" onclick="toggleMenu()">Acerca de mi</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <div class="toggle" onclick="toggleMenu();"></div>
-
-  <section class="banner" id="home">
+  <main class="banner" id="home">
     <div class="imgSidebar">
       <img src="./images/bg.jpg" alt="Foto de Perfil">
     </div>
@@ -34,7 +42,7 @@
         <li><img src="./images/twitter.png" alt="Twitter"></li>
       </ul>
     </div>
-  </section>
+  </main>
 
   <section class="about" id="about">
     <div class="title white">
@@ -45,10 +53,15 @@
     </div>
     <div class="content">
       <div class="textBx">
-        <p><strong>Una página Web a su imagen</strong><br>Porque además de desarollador Web somos nosotros mismos productores de contenido le vamos a proveer una
+        <p><strong>Una página Web a su imagen</strong><br>Porque además de desarollador Web somos nosotros mismos
+          productores de contenido le vamos a proveer una
           página Web que refleje su empresa o su institución y dirigida a su público.<br><br>
-          <strong>Una pagina Web dinámica</strong><br>Ud. y su empresa o institución evolucionan. Necesitara actualizar siempre su página Web. Le vamos a proveer
-          una pagina Web dinámica actualizable a través de un sistema de gestión de contenidos hecho a medida. <br><br><strong>Una página Web visible en internet</strong><br> Porque nos parece un mínimo, la página Web que le vamos a proveer es optimizada para motores de búsqueda (SEO). Es reconocida por los motores de búsqueda (como Google) rápidamente y sobre temas adecuados. </p>
+          <strong>Una pagina Web dinámica</strong><br>Ud. y su empresa o institución evolucionan. Necesitara actualizar
+          siempre su página Web. Le vamos a proveer
+          una pagina Web dinámica actualizable a través de un sistema de gestión de contenidos hecho a medida.
+          <br><br><strong>Una página Web visible en internet</strong><br> Porque nos parece un mínimo, la página Web que
+          le vamos a proveer es optimizada para motores de búsqueda (SEO). Es reconocida por los motores de búsqueda
+          (como Google) rápidamente y sobre temas adecuados. </p>
       </div>
       <div class="imgBx"><img src="./images/bg1.jpg" alt="Foto en Playa"></div>
     </div>
@@ -92,17 +105,11 @@
     </div>
   </section>
 
-  <div class="copyright">
+  <footer class="copyright">
     <p>copyright 2022 ® Jhoswe Genner. Todos los derechos reservados.</p>
-  </div>
+  </footer>
 
-  <div class="sidebar">
-    <ul>
-      <li><a href="#home" onclick="toggleMenu()">Inicio</a></li>
-      <li><a href="#about" onclick="toggleMenu()">Acerca de mi</a></li>
-      <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
-    </ul>
-  </div>
+
 
 
   <script>
